@@ -83,7 +83,7 @@ const ContactPage = () => {
         <div className="max-w-6xl mx-auto px-8 py-20 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Get in Touch</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Have questions about our data science solutions? We're here to help transform your data into actionable insights.
+            Have questions about our data science solutions? We&apos;re here to help transform your data into actionable insights.
           </p>
         </div>
       </div>

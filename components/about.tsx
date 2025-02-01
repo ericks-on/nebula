@@ -44,8 +44,8 @@ const AboutUs = () => {
           </div>
           
           <p className="text-gray-300 text-lg leading-relaxed">
-            At Nebula Analytics, we're not just building another fintech company - 
-            we're creating a bridge between traditional financial expertise and the 
+            At Nebula Analytics, we&apos;re not just building another fintech company - 
+            we&apos;re creating a bridge between traditional financial expertise and the 
             limitless possibilities of data science. Our work spans across sectors, 
             from healthcare to education, always grounded in solid financial principles 
             and powered by cutting-edge technology.

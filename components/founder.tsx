@@ -1,7 +1,6 @@
 import React from 'react';
-import { Quote, ArrowRight } from 'lucide-react';
+import { Quote } from 'lucide-react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const FounderStory = () => {
     const personalJourney = [

@@ -55,7 +55,7 @@ const TestimonialSection = () => {
 
         {/* Testimonials Grid */}
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-8">
-          {testimonials.map((testimonial, index) => (
+          {testimonials.map((testimonial ) => (
             <div
               key={testimonial.id}
               className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50 hover:border-orange-500/50 transition-all duration-300 flex-1 flex flex-col group hover:-translate-y-2"
@@ -68,7 +68,7 @@ const TestimonialSection = () => {
 
               {/* Testimonial Text */}
               <p className="text-gray-300 mb-8 flex-grow text-lg leading-relaxed">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </p>
 
               {/* Client Info */}
