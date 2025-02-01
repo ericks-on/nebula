@@ -1,22 +1,23 @@
+import ContactPage from "@/components/contacts";
+import FounderStory from "@/components/founder";
+import Landing from "@/components/landing";
+import DataScienceContainer from "@/components/services";
+import TestimonialSection from "@/components/testimonial";
+import Footer from "@/components/ui/footer";
 import Header from "@/components/ui/header";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-background text-foreground">
       <Header />
-      <main className="h-screen flex flex-col justify-center">
-        <h1 className="text-4xl text-center mt-8">
-          Welcome to Nebula Analytics
-        </h1>
-        <div className="flex justify-center mt-8">
-          <Image
-            src="/logo.ico"
-            alt="Nebula Analytics"
-            width={100}
-            height={100}
-          />
-        </div>
+      <main>
+        <Landing />
+        <DataScienceContainer />
+        <FounderStory />
+        <TestimonialSection />
+        <ContactPage />
+        <Footer />
       </main>
     </div>
   
