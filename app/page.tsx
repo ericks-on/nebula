@@ -5,7 +5,6 @@ import DataScienceContainer from "@/components/services";
 import TestimonialSection from "@/components/testimonial";
 import Footer from "@/components/ui/footer";
 import Header from "@/components/ui/header";
-import Image from "next/image";
 
 export default function Home() {
   return (

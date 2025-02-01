@@ -48,8 +48,8 @@ const FounderStory = () => {
             </h1>
             <p className="text-xl text-blue-200">
               My journey from a curious data scientist to founding one of the most innovative 
-              data science companies started with a simple question: "How can we make data 
-              science accessible to everyone?"
+              data science companies started with a simple question: &quot;How can we make data 
+              science accessible to everyone?&quot;
             </p>
           </div>
         </div>
@@ -74,8 +74,8 @@ const FounderStory = () => {
             financial institutions operate and serve their clients.
           </p>
           <p>
-            Through projects like "Predicting Hospital Readmissions" and "Smart 
-            Education Systems," I've demonstrated how data science can create impact 
+            Through projects like &quot;Predicting Hospital Readmissions&quot; and &quot;Smart 
+            Education Systems,&quot; I&apos;ve demonstrated how data science can create impact 
             across various sectors. These experiences shaped my vision for Nebula 
             Analytics - a company that bridges the gap between traditional finance 
             and cutting-edge technology.
@@ -86,8 +86,8 @@ const FounderStory = () => {
         <div className="my-12 bg-gray-50 dark:bg-gray-600 rounded-2xl p-8 relative">
           <Quote className="w-12 h-12 text-blue-600/20 dark:text-blue-400/20 absolute top-8 left-8" />
           <p className="text-2xl text-gray-700 dark:text-gray-300 italic ml-16">
-            "I believe that data science isn't just about algorithms and models – it's about 
-            empowering people to make better decisions and create positive change in the world."
+            &quot;I believe that data science isn&apos;t just about algorithms and models – it&apos;s about 
+            empowering people to make better decisions and create positive change in the world.&quot;
           </p>
         </div>
 
@@ -108,25 +108,25 @@ const FounderStory = () => {
 
         <div className="space-y-6 text-gray-700 dark:text-gray-300">
           <p>
-            At Nebula Analytics, we're not just building another fintech company - 
-            we're creating a bridge between traditional financial expertise and the 
+            At Nebula Analytics, we&apos;re not just building another fintech company - 
+            we&apos;re creating a bridge between traditional financial expertise and the 
             limitless possibilities of data science. Our work spans across sectors, 
             from healthcare to education, always grounded in solid financial principles 
             and powered by cutting-edge technology.
           </p>
           <p>
-            Looking ahead, I'm excited to continue pushing the boundaries of what's 
+            Looking ahead, I&apos;m excited to continue pushing the boundaries of what&apos;s 
             possible when we combine financial expertise with data science. The 
-            future of finance is being shaped by this intersection, and we're proud 
+            future of finance is being shaped by this intersection, and we&apos;re proud 
             to be at the forefront of this transformation.
           </p>
         </div>
 
         {/* Connect Section */}
         <div className="mt-16 text-center">
-          <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">Let's Connect</h3>
+          <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-100 mb-4">Let&apos;s Connect</h3>
           <p className="text-gray-600 dark:text-gray-400 mb-8">
-            I'm always eager to connect with fellow professionals interested in the 
+            I&apos;m always eager to connect with fellow professionals interested in the 
             intersection of finance, technology, and data science.
           </p>
           <Link href="https://www.linkedin.com/in/loycetsuma-datascientist/" target='blank'>
