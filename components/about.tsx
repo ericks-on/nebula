@@ -24,7 +24,7 @@ const AboutUs = () => {
         {/* Mission Section */}
         <div className="mb-16">
           <div className="flex items-center space-x-4 mb-8">
-            <span className="text-gray-500 text-6xl font-serif">"</span>
+            <span className="text-gray-500 text-6xl font-serif">&quot;</span>
             <h1 className="text-4xl md:text-5xl font-bold text-white">Our Mission</h1>
           </div>
           
