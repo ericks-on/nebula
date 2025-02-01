@@ -1,3 +1,4 @@
+import AboutUs from "@/components/about";
 import ContactPage from "@/components/contacts";
 import FounderStory from "@/components/founder";
 import Landing from "@/components/landing";
@@ -13,6 +14,7 @@ export default function Home() {
       <main>
         <Landing />
         <DataScienceContainer />
+        <AboutUs />
         <FounderStory />
         <TestimonialSection />
         <ContactPage />
