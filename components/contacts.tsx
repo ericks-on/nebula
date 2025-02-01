@@ -15,7 +15,7 @@ const ContactPage = () => {
     {
       icon: <Phone className="w-6 h-6 text-orange-500" />,
       title: "Phone",
-      info: "+254 712 345 678",
+      info: "+254723448011",
       subInfo: "Monday - Friday, 9am - 6pm EAT"
     },
     {
