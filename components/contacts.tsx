@@ -171,6 +171,7 @@ const ContactPage = () => {
                   <a
                     key={index}
                     href={social.href}
+                    target='blank'
                     className="bg-gray-700/50 p-3 rounded-lg border border-gray-600 hover:border-orange-500/50 hover:text-orange-500 transition-all duration-300"
                     aria-label={social.label}
                   >

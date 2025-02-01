@@ -58,6 +58,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href={social.href}
+                  target='blank'
                   className="bg-gray-800 p-2 rounded-lg hover:bg-orange-500 transition-colors"
                   aria-label={social.label}
                 >
