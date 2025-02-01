@@ -13,8 +13,8 @@ export default function Home() {
       <Header />
       <main>
         <Landing />
-        <DataScienceContainer />
         <AboutUs />
+        <DataScienceContainer />
         <FounderStory />
         <TestimonialSection />
         <ContactPage />
