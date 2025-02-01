@@ -104,15 +104,15 @@ const Footer = () => {
             <div className="space-y-4">
               <a href="mailto:contact@example.com" className="flex items-center space-x-3 hover:text-orange-500 transition-colors">
                 <Mail className="w-5 h-5" />
-                <span>contact@example.com</span>
+                <span>info@nebulaanalytics.org</span>
               </a>
               <a href="tel:+1234567890" className="flex items-center space-x-3 hover:text-orange-500 transition-colors">
                 <Phone className="w-5 h-5" />
-                <span>+1 (234) 567-890</span>
+                <span>+254723448011</span>
               </a>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5" />
-                <span>123 Data Street, Analytics City, 12345</span>
+                <span>Nairobi, Kenya</span>
               </div>
             </div>
           </div>
