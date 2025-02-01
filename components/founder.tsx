@@ -31,7 +31,7 @@ const FounderStory = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent rounded-2xl" />
             <Image 
               className="rounded-2xl shadow-xl relative z-10 w-full object-cover"
-              src="/images/loyce.jpeg"
+              src="/images/loyce.png"
               alt="Loyce Tsuma"
               width={800}
               height={600}
