@@ -3,7 +3,7 @@ import { Sparkles } from 'lucide-react';
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900" id='about'>
       {/* Network background effect */}
       <div className="absolute inset-0 opacity-10">
         <div className="relative w-full h-full">

@@ -28,9 +28,11 @@ const Footer = () => {
   ];
 
   const quickLinks = [
+    "about",
     "services",
     "founder",
-    "contact"
+    "contact",
+
   ];
 
   const services = [
