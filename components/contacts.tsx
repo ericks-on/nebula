@@ -28,7 +28,7 @@ const ContactPage = () => {
       icon: <MapPin className="w-6 h-6 text-orange-500" />,
       title: "Office",
       info: "Nairobi, Kenya",
-      subInfo: "Westlands Business Center, 4th Floor"
+      subInfo: "Nairobi"
     },
     {
       icon: <Clock className="w-6 h-6 text-orange-500" />,
