@@ -3,11 +3,12 @@ import {
   MapPin, 
   Phone, 
   Mail, 
-  Clock, 
-  Send
+  Clock
 } from 'lucide-react';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { BsTwitterX } from 'react-icons/bs';
+import ContactForm from '@/components/ui/ContactForm.client'; 
+import ScheduleMeetingButton from '@/components/ui/ScheduleMeetingButton.client'; 
 
 const ContactPage = () => {
   const contactMethods = [
@@ -20,7 +21,7 @@ const ContactPage = () => {
     {
       icon: <Mail className="w-6 h-6 text-orange-500" />,
       title: "Email",
-      info: "info@nebulaanalytics.com",
+      info: "info@nebulaanalytics.org",
       subInfo: "We'll respond within 24 hours"
     },
     {
@@ -113,54 +114,7 @@ const ContactPage = () => {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           <div className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700/50">
             <h2 className="text-2xl font-bold text-gray-100 mb-6">Send Us a Message</h2>
-            <form className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Full Name
-                </label>
-                <input 
-                  type="text" 
-                  className="w-full px-4 py-2 bg-gray-700/50 border border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-gray-100"
-                  placeholder="Your name"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Email
-                </label>
-                <input 
-                  type="email" 
-                  className="w-full px-4 py-2 bg-gray-700/50 border border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-gray-100"
-                  placeholder="your@email.com"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Subject
-                </label>
-                <input 
-                  type="text" 
-                  className="w-full px-4 py-2 bg-gray-700/50 border border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 text-gray-100"
-                  placeholder="How can we help?"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Message
-                </label>
-                <textarea 
-                  className="w-full px-4 py-2 bg-gray-700/50 border border-gray-600 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 h-32 text-gray-100"
-                  placeholder="Your message..."
-                />
-              </div>
-              <button 
-                type="submit" 
-                className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
-              >
-                Send Message
-                <Send className="w-4 h-4" />
-              </button>
-            </form>
+            <ContactForm /> {/* Use the Client Component */}
           </div>
     
           <div>
@@ -186,9 +140,7 @@ const ContactPage = () => {
               <p className="text-gray-300 mb-6">
                 Schedule a free consultation with our data science experts to discuss your specific needs and how we can help.
               </p>
-              <button className="w-full bg-transparent text-orange-500 font-semibold py-3 px-6 rounded-lg border-2 border-orange-500 hover:bg-orange-500/10 transition-colors">
-                Schedule Meeting
-              </button>
+              <ScheduleMeetingButton /> {/* Use the Client Component */}
             </div>
           </div>
         </div>

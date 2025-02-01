@@ -17,8 +17,8 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Freddie V.",
-    avatar: "/images/freddie.jpg",
+    name: "ApexLine Credit Solutions",
+    avatar: "/images/cred.jpg",
     quote: "Cutting-edge data solutions and personable services. Nebula Analytics is a game changer in the industry.",
   },
 ];
