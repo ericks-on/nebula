@@ -7,13 +7,13 @@ const Footer = () => {
   const socialLinks = [
     { 
       icon: <FaFacebook className="w-5 h-5" />,
-      href: "#",
+      href: "https://www.facebook.com/profile.php?id=61572751771909",
       label: "Facebook" 
     },
     { 
       icon: <BsTwitterX className="w-5 h-5" />,
-      href: "#", 
-      label: "Twitter"
+      href: "https://x.com/nebulanalytics", 
+      label: "X"
     },
     { 
       icon: <FaLinkedin className="w-5 h-5" />,
@@ -22,7 +22,7 @@ const Footer = () => {
     },
     {
       icon: <FaInstagram className="w-5 h-5" />,
-      href: "#",
+      href: "https://www.instagram.com/nebulanalyticskenya/",
       label: "Instagram"
     }
   ];

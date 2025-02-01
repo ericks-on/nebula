@@ -39,24 +39,24 @@ const ContactPage = () => {
 
   const socialLinks = [
     { 
-        icon: <FaFacebook className="w-5 h-5" />,
-        href: "#",
-        label: "Facebook" 
+      icon: <FaFacebook className="w-5 h-5" />,
+      href: "https://www.facebook.com/profile.php?id=61572751771909",
+      label: "Facebook" 
     },
     { 
-        icon: <BsTwitterX className="w-5 h-5" />,
-        href: "#", 
-        label: "Twitter"
+      icon: <BsTwitterX className="w-5 h-5" />,
+      href: "https://x.com/nebulanalytics", 
+      label: "X"
     },
     { 
-        icon: <FaLinkedin className="w-5 h-5" />,
-        href: "https://www.linkedin.com/company/nebula-analytics-kenya/posts/?feedView=all", 
-        label: "LinkedIn" 
+      icon: <FaLinkedin className="w-5 h-5" />,
+      href: "https://www.linkedin.com/company/nebula-analytics-kenya/posts/?feedView=all", 
+      label: "LinkedIn" 
     },
     {
-        icon: <FaInstagram className="w-5 h-5" />,
-        href: "#",
-        label: "Instagram"
+      icon: <FaInstagram className="w-5 h-5" />,
+      href: "https://www.instagram.com/nebulanalyticskenya/",
+      label: "Instagram"
     }
   ];
 
