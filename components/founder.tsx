@@ -28,7 +28,7 @@ const FounderStory = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Founder Image */}
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent rounded-2xl" />
+            <div className="absolute inset-0 bg-gray-300 rounded-2xl" />
             <Image 
               className="rounded-2xl shadow-xl relative z-10 w-full object-cover"
               src="/images/loyce.png"
