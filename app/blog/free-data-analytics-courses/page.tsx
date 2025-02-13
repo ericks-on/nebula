@@ -102,13 +102,13 @@ const BlogPost = () => {
                 <section>
                   <h2 className="text-3xl font-bold text-white mb-8">Introduction</h2>
                   <p className="text-xl leading-relaxed mb-8">
-                    Breaking into data analytics doesn't have to break the bank. With the growing demand for data professionals, many prestigious institutions and tech companies now offer high-quality, free courses to help you build essential skills. In this guide, we'll explore the best free resources to start your data analytics journey or advance your existing skills.
+                    Breaking into data analytics doesn&apos;t have to break the bank. With the growing demand for data professionals, many prestigious institutions and tech companies now offer high-quality, free courses to help you build essential skills. In this guide, we&apos;ll explore the best free resources to start your data analytics journey or advance your existing skills.
                   </p>
                 </section>
 
                 {/* Essential Skills */}
                 <section>
-                  <h2 className="text-3xl font-bold text-white mb-8">Essential Skills You'll Learn</h2>
+                  <h2 className="text-3xl font-bold text-white mb-8">Essential Skills You&apos;ll Learn</h2>
                   <ul className="space-y-4 text-lg">
                     <li className="flex items-start gap-4">
                       <span className="text-orange-500">•</span>
