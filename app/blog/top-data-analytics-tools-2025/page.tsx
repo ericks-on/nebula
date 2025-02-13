@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ChevronLeft, Calendar, Clock, Share2, ChevronRight } from 'lucide-react';
+import Header from '@/components/ui/header';
+import Footer from '@/components/ui/footer';
 
 const BlogPost = () => {
   const blogData = {
@@ -15,7 +17,7 @@ const BlogPost = () => {
   };
 
   return (
-    <div className="w-full bg-gray-900">
+    <div className="w-full bg-gray-900 pt-24">
       <Head>
         <title>{blogData.title} | Nebula Analytics Blog</title>
         <meta name="description" content={blogData.description} />
@@ -25,6 +27,7 @@ const BlogPost = () => {
         <meta property="og:image" content={blogData.mainImage} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+      <Header />
 
       <main className="max-w-7xl mx-auto px-4 py-12">
         <Link href="/blog" className="text-orange-500 hover:text-orange-400 flex items-center gap-2 mb-12">
@@ -232,6 +235,7 @@ const BlogPost = () => {
           </div>
         </article>
       </main>
+      <Footer />
     </div>
   );
 };

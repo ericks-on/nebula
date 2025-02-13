@@ -2,6 +2,8 @@ import React from 'react';
 import { ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Header from '@/components/ui/header';
+import Footer from '@/components/ui/footer';
 
 const BlogPage = () => {
   const blogs = [
@@ -36,7 +38,7 @@ const BlogPage = () => {
       slug: "top-data-analytics-tools-2025",
     },
     {
-      imagePath: "/images/blog6.jpg",
+      imagePath: "/blog/blog6.jpg",
       title: "Business Intelligence vs Data Analytics: What's the Difference?",
       description: "Understand the distinctions between business intelligence and data analytics, and how they work together.",
       slug: "business-intelligence-vs-data-analytics",
@@ -44,7 +46,8 @@ const BlogPage = () => {
   ];
 
   return (
-    <div className="w-full bg-gray-900" id='blogs'>
+    <div className="w-full bg-gray-900 pt-24" id='blogs'>
+      <Header />
       {/* Network background effect */}
       <div className="absolute inset-0 opacity-10">
         <div className="relative w-full h-full">
@@ -148,6 +151,7 @@ const BlogPage = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

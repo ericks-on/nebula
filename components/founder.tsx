@@ -93,15 +93,15 @@ import Image from 'next/image';
 const FounderStory = () => {
     const teamMembers = [
         {
-            name: "Sarah Chen",
-            title: "Lead Data Engineer",
-            bio: "With over 8 years of experience in big data architecture, Sarah specializes in building scalable data pipelines and cloud infrastructure. She previously led data engineering teams at major tech companies.",
+            name: "Erickson Mbuvi",
+            title: "Lead Developer",
+            bio: "Erickson Mbuvi brings his background in computer science and mathematics, along with his expertise in data science and software development, to his work at Nebula Analytics. He focuses on building data-driven applications and predictive analytics to empower smarter decision-making and innovative solutions.",
             image: "/images/sarah.png"
         },
         {
-            name: "Marcus Rodriguez",
-            title: "Head of AI Research",
-            bio: "Marcus brings 10+ years of expertise in machine learning and artificial intelligence. His research focuses on developing innovative AI solutions for complex business challenges.",
+            name: "Austin Murunga",
+            title: "Lead Analyst",
+            bio: "Austin Murunga, at Nebula Analytics, leverages his engineering background alongside data science proficiency, utilizing BI and Tableau to convert intricate datasets into actionable insights. His adeptness at trend analysis and narrative visualization ensures that your strategic business decisions are both data-driven and visionary.",
             image: "/images/marcus.png"
         }
     ];
