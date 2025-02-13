@@ -3,9 +3,24 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { IoClose, IoMenuSharp } from 'react-icons/io5';
+import { useRouter } from 'next/navigation';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const router = useRouter();
+
+    const handleScrollToSection = (sectionId:string) => {
+      if (window.location.pathname === '/') {
+        // If already on the homepage, scroll to the section
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      } else {
+        // Navigate to the homepage with the hash
+        router.push(`/#${sectionId}`);
+      }
+    };
 
     return (
         <header className="flex items-center justify-between p-4 h-24 w-screen shadow-md fixed top-0 bg-gray-900 text-gray-100 z-50 pr-20">
@@ -26,23 +41,40 @@ const Header = () => {
             <nav className="hidden md:block">
                 <ul className="flex space-x-8">
                     <li>
-                        <Link href="#about" className="hover:text-orange-500 transition-colors">
-                            About us
-                        </Link>
+                    <button
+                        onClick={() => handleScrollToSection('about')}
+                        className="text-gray-300 hover:text-orange-500 transition-colors"
+                    >
+                        About us
+                    </button>
                     </li>
                     <li>
-                        <Link href="#services" className="hover:text-orange-500 transition-colors">
-                            Our Services
-                        </Link>
+                        <button
+                            onClick={() => handleScrollToSection('services')}
+                            className="text-gray-300 hover:text-orange-500 transition-colors"
+                        >
+                            Services
+                        </button>
                     </li>
                     <li>
-                        <Link href="#founder" className="hover:text-orange-500 transition-colors">
-                            Meet our Founder
-                        </Link>
+                        <button
+                            onClick={() => handleScrollToSection('team')}
+                            className="text-gray-300 hover:text-orange-500 transition-colors"
+                        >
+                            Meet the Team
+                        </button>
                     </li>
                     <li>
-                        <Link href="#contact" className="hover:text-orange-500 transition-colors">
-                            Contact Us
+                    <button
+                        onClick={() => handleScrollToSection('contact')}
+                        className="text-gray-300 hover:text-orange-500 transition-colors"
+                    >
+                        Contact
+                    </button>
+                    </li>
+                    <li>
+                        <Link href="/blog" className="hover:text-orange-500 transition-colors">
+                            Blog
                         </Link>
                     </li>
                 </ul>
