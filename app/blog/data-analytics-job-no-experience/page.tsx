@@ -93,7 +93,7 @@ const BlogPost = () => {
                 <section>
                   <h2 className="text-3xl font-bold text-white mb-8">Introduction</h2>
                   <p className="text-xl leading-relaxed mb-8">
-                    Breaking into data analytics without experience might seem daunting, but it's more achievable than you think. Companies are increasingly valuing skills and potential over traditional experience. This guide will show you practical steps to build those skills, create a compelling portfolio, and position yourself for your first data analytics role.
+                    Breaking into data analytics without experience might seem daunting, but it&apos;s more achievable than you think. Companies are increasingly valuing skills and potential over traditional experience. This guide will show you practical steps to build those skills, create a compelling portfolio, and position yourself for your first data analytics role.
                   </p>
                 </section>
 
@@ -298,7 +298,7 @@ const BlogPost = () => {
                 <section>
                   <h2 className="text-3xl font-bold text-white mb-8">Conclusion</h2>
                   <p className="text-xl leading-relaxed">
-                    Landing your first data analytics job without experience requires dedication and a strategic approach. Focus on building practical skills through projects, getting relevant certifications, and networking with industry professionals. By following this guide, you'll be well on your way to launching a successful career in data analytics.
+                    Landing your first data analytics job without experience requires dedication and a strategic approach. Focus on building practical skills through projects, getting relevant certifications, and networking with industry professionals. By following this guide, you&apos;ll be well on your way to launching a successful career in data analytics.
                   </p>
                 </section>
               </div>

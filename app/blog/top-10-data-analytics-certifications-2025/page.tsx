@@ -47,7 +47,7 @@ const BlogPost = () => {
             </div>
             <h2 className="text-3xl font-bold text-white mb-6">Transform Your Data Analytics Journey with Nebula Analytics</h2>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Join a team of innovative data professionals at Nebula Analytics. We're revolutionizing data-driven decision making with cutting-edge AI technology and comprehensive analytics solutions.
+              Join a team of innovative data professionals at Nebula Analytics. We&apos;re revolutionizing data-driven decision making with cutting-edge AI technology and comprehensive analytics solutions.
             </p>
             <Link 
               href="/" 
@@ -101,7 +101,7 @@ const BlogPost = () => {
                 <section>
                   <h2 className="text-3xl font-bold text-white mb-8">Introduction</h2>
                   <p className="text-xl leading-relaxed mb-8">
-                    In today's data-driven world, having the right certifications can significantly boost your career prospects in data analytics. This comprehensive guide explores the most valuable data analytics certifications in 2025, helping you make an informed decision about your professional development.
+                    In today&apos;s data-driven world, having the right certifications can significantly boost your career prospects in data analytics. This comprehensive guide explores the most valuable data analytics certifications in 2025, helping you make an informed decision about your professional development.
                   </p>
                 </section>
 
@@ -109,7 +109,7 @@ const BlogPost = () => {
                 <section>
                   <h2 className="text-3xl font-bold text-white mb-8">Why Get Certified in Data Analytics?</h2>
                   <p className="text-xl leading-relaxed mb-8">
-                    Before diving into specific certifications, it's important to understand their value in today's competitive job market.
+                    Before diving into specific certifications, it&apos;s important to understand their value in today&apos;s competitive job market.
                   </p>
                   <ul className="space-y-4 text-lg">
                     <li className="flex items-start gap-4">

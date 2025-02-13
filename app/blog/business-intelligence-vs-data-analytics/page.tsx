@@ -214,7 +214,7 @@ const BlogPost = () => {
                 <section>
                   <h2 className="text-3xl font-bold text-white mb-8">Conclusion</h2>
                   <p className="text-xl leading-relaxed">
-                    Both Business Intelligence and Data Analytics are essential for data-driven decision-making. While BI helps organizations understand their current state, DA empowers them to predict future outcomes and take proactive actions. By leveraging both, businesses can achieve a competitive edge in today's data-driven world.
+                    Both Business Intelligence and Data Analytics are essential for data-driven decision-making. While BI helps organizations understand their current state, DA empowers them to predict future outcomes and take proactive actions. By leveraging both, businesses can achieve a competitive edge in today&apos;s data-driven world.
                   </p>
                 </section>
               </div>

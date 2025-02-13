@@ -130,7 +130,7 @@ const BlogPost = () => {
                         </li>
                         <li className="flex items-start gap-4">
                           <span className="text-orange-500">•</span>
-                          <strong>Getting Started:</strong> Use the free version and follow Microsoft's Power BI learning path.
+                          <strong>Getting Started:</strong> Use the free version and follow Microsoft&apos;s Power BI learning path.
                         </li>
                       </ul>
                     </div>
@@ -227,7 +227,7 @@ const BlogPost = () => {
                 <section>
                   <h2 className="text-3xl font-bold text-white mb-8">Conclusion</h2>
                   <p className="text-xl leading-relaxed">
-                    Choosing the right data analytics tool is a critical step for beginners. Whether you start with Tableau, Power BI, or Python, each tool offers unique advantages. By leveraging the resources and tips in this guide, you'll be well-equipped to begin your journey into data analytics in 2025.
+                    Choosing the right data analytics tool is a critical step for beginners. Whether you start with Tableau, Power BI, or Python, each tool offers unique advantages. By leveraging the resources and tips in this guide, you&apos;ll be well-equipped to begin your journey into data analytics in 2025.
                   </p>
                 </section>
               </div>
