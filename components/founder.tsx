@@ -111,7 +111,7 @@ const FounderStory = () => {
             <div className="max-w-6xl mx-auto px-8 py-24">
                 {/* Section Title */}
                 <h2 className="text-4xl font-bold text-center mb-16">
-                    Our Leadership Team
+                    Our Team
                 </h2>
 
                 {/* Founder Section */}
