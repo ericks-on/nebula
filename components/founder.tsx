@@ -96,13 +96,13 @@ const FounderStory = () => {
             name: "Erickson Mbuvi",
             title: "Lead Developer",
             bio: "Erickson Mbuvi brings his background in computer science and mathematics, along with his expertise in data science and software development, to his work at Nebula Analytics. He focuses on building data-driven applications and predictive analytics to empower smarter decision-making and innovative solutions.",
-            image: "/images/sarah.png"
+            image: "/images/erickson.jpg"
         },
         {
             name: "Austin Murunga",
             title: "Lead Analyst",
             bio: "Austin Murunga, at Nebula Analytics, leverages his engineering background alongside data science proficiency, utilizing BI and Tableau to convert intricate datasets into actionable insights. His adeptness at trend analysis and narrative visualization ensures that your strategic business decisions are both data-driven and visionary.",
-            image: "/images/marcus.png"
+            image: "/images/austin.jpeg"
         }
     ];
 
@@ -117,7 +117,7 @@ const FounderStory = () => {
                 {/* Founder Section */}
                 <div className="grid md:grid-cols-2 gap-16 items-center mb-24">
                     <div className="relative">
-                        <div className="absolute inset-0 bg-gray-300 rounded-2xl" />
+                        <div className="absolute inset-0 bg-gray-100 rounded-2xl" />
                         <Image 
                             className="rounded-2xl shadow-xl relative z-10 w-full object-cover"
                             src="/images/loyce.png"
@@ -155,14 +155,14 @@ const FounderStory = () => {
                             key={index} 
                             className="bg-gray-800/50 backdrop-blur rounded-2xl p-8 border border-gray-700 hover:border-orange-600 transition-colors duration-300"
                         >
-                            <div className="relative h-72 mb-8">
+                            <div className="relative h-82 mb-8">
                                 <div className="absolute inset-0 bg-gray-300 rounded-xl" />
                                 <Image 
                                     className="rounded-xl w-full h-full object-cover relative z-10"
                                     src={member.image}
                                     alt={member.name}
-                                    width={400}
-                                    height={300}
+                                    width={600}
+                                    height={400}
                                 />
                                 <div className="absolute bottom-4 left-4 right-4 bg-black/40 backdrop-blur-sm rounded-xl p-4 z-20">
                                     <h3 className="text-xl font-semibold">{member.name}</h3>
