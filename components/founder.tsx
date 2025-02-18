@@ -102,7 +102,7 @@ const FounderStory = () => {
             name: "Austin Murunga",
             title: "Lead Analyst",
             bio: "Austin Murunga, at Nebula Analytics, leverages his engineering background alongside data science proficiency, utilizing BI and Tableau to convert intricate datasets into actionable insights. His adeptness at trend analysis and narrative visualization ensures that your strategic business decisions are both data-driven and visionary.",
-            image: "/images/austin.jpeg"
+            image: "/images/austin.png"
         }
     ];
 
@@ -156,7 +156,7 @@ const FounderStory = () => {
                             className="bg-gray-800/50 backdrop-blur rounded-2xl p-8 border border-gray-700 hover:border-orange-600 transition-colors duration-300"
                         >
                             <div className="relative h-82 mb-8">
-                                <div className="absolute inset-0 bg-gray-300 rounded-xl" />
+                                <div className="absolute inset-0 bg-gray-100 rounded-xl" />
                                 <Image 
                                     className="rounded-xl w-full h-full object-cover relative z-10"
                                     src={member.image}
